@@ -24,7 +24,7 @@ public class GenericSample {
         List<T> ret = new ArrayList<T>();
         for(T arg: args)
             ret.add(arg);
-        
+
         return ret;
     }
 
