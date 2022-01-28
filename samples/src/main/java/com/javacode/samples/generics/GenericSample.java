@@ -19,9 +19,13 @@ public class GenericSample {
         return list;
     }
 
-//    public <T> T sum(T a,T b){
-//        T sum = a + b;
-//        return sum;
-//    }
+    // var args
+    public <T> List<T> varArgsTest(T... args){
+        List<T> ret = new ArrayList<T>();
+        for(T arg: args)
+            ret.add(arg);
+        
+        return ret;
+    }
 
 }
