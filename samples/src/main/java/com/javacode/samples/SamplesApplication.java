@@ -1,6 +1,7 @@
 package com.javacode.samples;
 
 import com.javacode.samples.advanced_data_structures.LinkedListSample;
+import com.javacode.samples.advanced_data_structures.QueueSample;
 import com.javacode.samples.generics.GenericSample;
 import com.javacode.samples.overriding_methods.OverRidingMethods;
 import org.springframework.boot.SpringApplication;
@@ -23,9 +24,10 @@ public class SamplesApplication {
 //		}
 //		OverRidingMethods overRidingMethods = new OverRidingMethods();
 //		System.out.print(overRidingMethods.toString());
-		LinkedListSample linkedListSample = new LinkedListSample();
-		linkedListSample.examples();
-
+//		LinkedListSample linkedListSample = new LinkedListSample();
+//		linkedListSample.examples();
+		QueueSample queueSample = new QueueSample();
+		queueSample.examples();
 	}
 
 }
