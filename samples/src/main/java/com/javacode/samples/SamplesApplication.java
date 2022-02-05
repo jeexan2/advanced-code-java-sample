@@ -6,6 +6,7 @@ import com.javacode.samples.advanced_data_structures.LinkedListSample;
 import com.javacode.samples.advanced_data_structures.QueueSample;
 import com.javacode.samples.functional_interface.FuntionalInterfaceExample;
 import com.javacode.samples.generics.GenericSample;
+import com.javacode.samples.iostreams.BufferedReaderExample;
 import com.javacode.samples.linkare.Order;
 import com.javacode.samples.linkare.Orders;
 import com.javacode.samples.linkare.Test1;
@@ -85,8 +86,10 @@ public class SamplesApplication {
 //		sThread.start();
 //		Users users = new Users();
 //		users.examples();
-		Kitchen kitchen = new Kitchen();
-		kitchen.examples();
+//		Kitchen kitchen = new Kitchen();
+//		kitchen.examples();
+		BufferedReaderExample bufferedReaderExample = new BufferedReaderExample();
+		bufferedReaderExample.examples();
 	}
 
 }
