@@ -13,6 +13,10 @@ import com.javacode.samples.linkare.Test2;
 import com.javacode.samples.method_reference.MethodReferenceExample;
 import com.javacode.samples.overriding_methods.OverRidingMethods;
 import com.javacode.samples.streams.Library;
+import com.javacode.samples.thread.RunnableInterfaceExample;
+import com.javacode.samples.thread.ThreadExample;
+import com.javacode.samples.thread.deadlock.Kitchen;
+import com.javacode.samples.thread.synchronization.Users;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -56,8 +60,33 @@ public class SamplesApplication {
 //		MethodReferenceExample methodReferenceExample = new MethodReferenceExample();
 //		methodReferenceExample.examples();
 
-		Library library = new Library();
-		library.examples();
+//		Library library = new Library();
+//		library.examples();
+//		System.out.println(Thread.activeCount());
+//		ThreadExample threadExample = new ThreadExample();
+//		threadExample.setName("My first thread");
+//		threadExample.start();
+//
+//		ThreadExample threadExample1 = new ThreadExample();
+//		threadExample1.setName("My second thread");
+//		threadExample1.start();
+
+//		Thread thread = new Thread(new RunnableInterfaceExample());
+//		thread.start();
+//
+//		Thread sThread = new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				for(int i = 0; i < 100; i++)
+//					System.out.println(i+" "+Thread.currentThread().getName());
+//			}
+//		});
+//
+//		sThread.start();
+//		Users users = new Users();
+//		users.examples();
+		Kitchen kitchen = new Kitchen();
+		kitchen.examples();
 	}
 
 }
